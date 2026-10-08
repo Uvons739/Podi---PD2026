@@ -1,0 +1,10 @@
+Vārds - PDA
+
+Close #89
+
+Veiktās izmaiņas:
+- Uzlabots tīmekļa vietnes dizains.
+- Pievienotas animācijas un hover efekti.
+- Uzlabots responsīvais dizains.
+- Pievienots .gitignore.
+- secret.txt netiek iekļauts versiju kontrolē.

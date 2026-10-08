@@ -1,0 +1,146 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    color: #222;
+}
+
+.about {
+    min-height: 100vh;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #eef4ff, #f8fafc);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.label {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background: #dbeafe;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+    color: #111827;
+    font-size: 48px;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #64748b;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    width: 300px;
+    padding: 35px 25px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.14);
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #eff6ff;
+    font-size: 28px;
+}
+
+.feature-card h2 {
+    margin-bottom: 12px;
+    color: #2563eb;
+    font-size: 22px;
+}
+
+.feature-card p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 55px;
+    flex-wrap: wrap;
+}
+
+.stats div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stats strong {
+    color: #2563eb;
+    font-size: 28px;
+}
+
+.stats span {
+    color: #64748b;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .about {
+        padding: 60px 15px;
+    }
+
+    .about h1 {
+        font-size: 36px;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
+
+    .feature-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .stats {
+        gap: 35px;
+    }
+}
+```

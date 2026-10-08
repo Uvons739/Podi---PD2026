@@ -1,0 +1,8 @@
+git checkout -b 89-vards-uzvards
+git branch
+git add index.html style.css
+git commit -m "#89 Uzlabots projekta dizains"
+git add .gitignore README.md
+git commit -m "#89 Pievienots gitignore un projekta apraksts"
+git status
+git push -u origin 89-vards-uzvards
